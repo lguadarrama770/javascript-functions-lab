@@ -20,7 +20,12 @@ greeting();
 Prompt 5: Create a function named changeToLowerCase 
 that accepts a string as a parameter and converts letters of each word of the string to lowercase
 */
+function changeToLowerCase(){
+    let words = '';
+    return words.toLowerCase();
+}
 
+console.log( changeToLowerCase() );
 /*
 Prompt 6: Make a function that accepts a string as a parameter 
 and converts the first letter of each word of the string in uppercase.
