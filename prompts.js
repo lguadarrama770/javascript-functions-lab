@@ -55,13 +55,12 @@ function firstLetter(firstWord) {
 function longestWord(text) {
     let sentence = text.split(' ');
     let maxLength = 0;
-    let result = ' ';
-    for(let i = 0; i <= sentence.length; i++) {
+    for(let i = 0; i < sentence.length; i++) {
         if(sentence[i].length > maxLength){
             maxLength = sentence[i].length;
-            result = sentence[i];
         }
     }
+    return maxLength;
 }
 
 /*
